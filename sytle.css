@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Cormorant+SC:wght@300&family=Ubuntu:wght@300&display=swap');
+ *{
+   margin: 0;
+   padding: 0;
+   
+} 
+.container{
+   max-width: 80vw;
+   font-family:'Ubuntu', sans-serif; 
+}
+ .navbar{
+   display: flex;
+   height: 67px; 
+   
+ } 
+.navbar li{
+   list-style: none;
+   margin: 0  12px;
+}
+.topleft{
+   width: 50%;
+}
+.topright{
+   width: 50%;
+   
+}
+.section1{
+   min-height: 38vh;
+}
+.section1 h1{
+   font-size: 2rem;
+}
+.overflow-x-hidden{
+   overflow-x: hidden;
+}
+.logo{
+   font-size: 1.7rem;
+}
+.section2{
+   min-height: 47vh;
+    
+}
+.section2 h1{
+   font-size: 2rem;
+}
+.box{
+   padding: 8px 0;
+   margin: 13px 22px;
+   min-width:23vw;
+   border:1.7px solid black;
+   text-align: center;
+    
+}
+.box ul{
+   list-style-type: none;
+}
+.box ul li{
+   margin: 12px 2px;
+}
